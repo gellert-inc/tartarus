@@ -59,6 +59,7 @@ export const Hero = () => {
             <input type='hidden' name='form-name' value='alpha-release' />
 
             <input
+              name="email"
               placeholder='Email'
               required={true}
               type='email'
