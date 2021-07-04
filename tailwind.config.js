@@ -117,7 +117,7 @@ module.exports = {
           'accent-200': '#448aff',
           'accent-400': '#2979ff',
           'accent-700': '#2962ff',
-          primary: "#1b365d"
+          primary: '#1b365d'
         },
         'light-blue': {
           50: '#e1f5fe',
@@ -254,7 +254,7 @@ module.exports = {
           'accent-200': '#ffff00',
           'accent-400': '#ffea00',
           'accent-700': '#ffd600',
-          primary: "#FECF60"
+          primary: '#FECF60'
         },
         orange: {
           50: '#fff3e0',
