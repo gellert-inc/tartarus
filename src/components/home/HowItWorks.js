@@ -2,7 +2,6 @@ import React from 'react'
 import 'twin.macro'
 
 import Fade from 'react-reveal/Fade'
-import withReveal from 'react-reveal/withReveal'
 
 import { Subtitle } from '../text'
 
@@ -148,7 +147,5 @@ const Step = ({ id, title, subtitle, last }) => (
     </div>
   </Fade>
 )
-
-const AnimatedTitle = withReveal(Title, <Fade />)
 
 export default HowItWorks
