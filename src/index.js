@@ -7,7 +7,7 @@ import GlobalStyles from './styles/GlobalStyles'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 
-import ThemedSuspense from './components/ThemedSuspense'
+import ThemedSuspense from './components/common/ThemedSuspense'
 
 ReactDOM.render(
   <React.StrictMode>

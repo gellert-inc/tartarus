@@ -1,10 +1,10 @@
 import React, { useState, Fragment } from 'react'
 import 'twin.macro'
 
-import Logo from './Logo'
+import  { Logo } from '../image'
 import { Popover, Transition } from '@headlessui/react'
 
-export const Header = () => {
+const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
@@ -115,3 +115,5 @@ export const Header = () => {
     </div>
   )
 }
+
+export default Header
