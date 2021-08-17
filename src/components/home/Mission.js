@@ -11,7 +11,7 @@ const Mission = () => {
           </h2>
           <p tw='text-base text-gray-50 md:text-lg'>
             Our mission is to inculcate charitable giving as a habit in
-            communites.
+            communities.
             <br />
           </p>
         </div>
