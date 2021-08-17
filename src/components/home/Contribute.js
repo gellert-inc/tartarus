@@ -73,7 +73,7 @@ const Content = () => {
         <div>
           <img
             tw='w-full h-56 rounded shadow-lg sm:h-96'
-            src='/contributors.jpeg'
+            src='https://images.unsplash.com/photo-1593113598332-cd288d649433?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1260&q=80'
             alt=''
           />
         </div>

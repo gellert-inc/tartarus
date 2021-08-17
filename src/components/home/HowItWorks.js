@@ -75,8 +75,8 @@ const Steps = () => {
         </div>
         <div tw='relative'>
           <img
-            tw='inset-0 object-cover object-bottom w-full rounded shadow-lg h-96 lg:absolute lg:h-full'
-            src='https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260'
+            tw='inset-0 object-cover w-full rounded shadow-lg h-96 lg:absolute lg:h-full'
+            src='https://images.unsplash.com/photo-1575356891535-a79c0bc6bffc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80'
             alt=''
           />
         </div>
