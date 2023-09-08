@@ -1163,7 +1163,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.1.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.14.0", "@babel/runtime@^7.9.2":
   version "7.14.6"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.6.tgz#535203bc0892efc7dec60bdc27b2ecf6e409062d"
   integrity sha512-/PCB2uJ7oM44tz8YhC4Z/6PeOKXp4K588f+5M3clr1M4zbqztlo0XEfJ2LEzj/FgwfgGcIdl8n7YYjTCI0BYwg==
@@ -2240,6 +2240,13 @@
     "@webassemblyjs/ast" "1.9.0"
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
+
+"@wellyshen/use-web-animations@^0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@wellyshen/use-web-animations/-/use-web-animations-0.9.1.tgz#70fc6c0f29427d328d5d7cb40284004a55d8ae57"
+  integrity sha512-IfE8vwbPvdNWW7LkZAvoLEtjOhmodPBm8TQLFoDv7L5Fh9e0ndMOAssLXX7o5TMRoLVLfn4tUP5EM2qvX7wbgg==
+  dependencies:
+    "@babel/runtime" "^7.14.0"
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -7635,6 +7642,11 @@ mixin-deep@^1.2.0:
     for-in "^1.0.2"
     is-extendable "^1.0.1"
 
+mixpanel-browser@^2.41.0:
+  version "2.41.0"
+  resolved "https://registry.yarnpkg.com/mixpanel-browser/-/mixpanel-browser-2.41.0.tgz#d49753b4e4a7e6ddd18c126be4a917fff4ce3039"
+  integrity sha512-IEuc9cH44hba9a3KEyulXINLn+gpFqluBDo7xiTk1h3j111dmmsctaE6tUzZYxgGLVqeNhTpsccdliOeX24Wlw==
+
 mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@^0.5.5, mkdirp@~0.5.1:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.5.tgz#d91cefd62d1436ca0f41620e251288d420099def"
@@ -9155,7 +9167,7 @@ postcss@^8.1.0:
     nanoid "^3.1.20"
     source-map "^0.6.1"
 
-postcss@^8.1.6, postcss@^8.1.8, postcss@^8.2.1:
+postcss@^8.1.6, postcss@^8.1.8, postcss@^8.2.1, postcss@^8.3.5:
   version "8.3.5"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.5.tgz#982216b113412bc20a86289e91eb994952a5b709"
   integrity sha512-NxTuJocUhYGsMiMFHDUkmjSKT3EdH4/WbGF6GCi1NDGk+vbcUTun4fpbOqaPtD8IIsztA2ilZm2DhYCuyN58gA==

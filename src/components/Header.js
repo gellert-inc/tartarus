@@ -1,8 +1,8 @@
-import React, { useState, Fragment } from 'react'
+import { useState } from 'react'
 import 'twin.macro'
+import Button from './button/Button'
 
 import Logo from './Logo'
-import { Popover, Transition } from '@headlessui/react'
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -14,29 +14,9 @@ export const Header = () => {
           <Logo />
           <ul tw='flex items-center hidden space-x-8 lg:flex'>
             <li>
-              <Popover tw='relative'>
-                <Popover.Button
-                  type='primary'
-                  aria-label='Sign up'
-                  title='Sign up'
-                  tw='inline-flex items-center justify-center h-12 px-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-accent-700 hover:bg-teal-700 focus:shadow-outline focus:outline-none'
-                >
-                  Partner with us
-                </Popover.Button>
-                <Transition
-                  as={Fragment}
-                  enter='transition ease-out duration-200'
-                  enterFrom='opacity-0 translate-y-1'
-                  enterTo='opacity-100 translate-y-0'
-                  leave='transition ease-in duration-150'
-                  leaveFrom='opacity-100 translate-y-0'
-                  leaveTo='opacity-0 translate-y-1'
-                >
-                  <Popover.Panel tw='absolute z-10 px-6 py-2 mt-2 bg-gray-900 rounded-lg text-white'>
-                    Coming soon!
-                  </Popover.Panel>
-                </Transition>
-              </Popover>
+              <Button variant='primary' href='/onboarding' md>
+                Partner with us
+              </Button>
             </li>
           </ul>
           <div tw='lg:hidden'>
@@ -83,29 +63,9 @@ export const Header = () => {
                       </button>
                     </div>
                   </div>
-                  <Popover tw='relative'>
-                    <Popover.Button
-                      type='primary'
-                      aria-label='Sign up'
-                      title='Sign up'
-                      tw='inline-flex items-center justify-center w-full h-12 px-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-accent-700 hover:bg-teal-700 focus:shadow-outline focus:outline-none '
-                    >
-                      Partner with us
-                    </Popover.Button>
-                    <Transition
-                      as={Fragment}
-                      enter='transition ease-out duration-200'
-                      enterFrom='opacity-0 translate-y-1'
-                      enterTo='opacity-100 translate-y-0'
-                      leave='transition ease-in duration-150'
-                      leaveFrom='opacity-100 translate-y-0'
-                      leaveTo='opacity-0 translate-y-1'
-                    >
-                      <Popover.Panel tw='absolute z-10 px-4 py-2 mt-2 bg-gray-900 rounded-lg text-white transform -translate-x-1/2 left-1/2'>
-                        Coming soon!
-                      </Popover.Panel>
-                    </Transition>
-                  </Popover>
+                  <Button variant='primary' href='/onboarding'>
+                    Partner with us
+                  </Button>
                 </div>
               </div>
             )}
