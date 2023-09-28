@@ -1,4 +1,5 @@
 import tw, { styled, css, theme } from 'twin.macro'
+import 'styled-components/macro'
 
 const Button = styled.button(({ variant, md, xl, px, py }) => [
   // The common button styles added with the tw import

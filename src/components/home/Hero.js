@@ -1,5 +1,6 @@
 import React from 'react'
 import tw from 'twin.macro'
+import 'styled-components/macro'
 
 import Fade from 'react-reveal/Fade'
 import withReveal from 'react-reveal/withReveal'

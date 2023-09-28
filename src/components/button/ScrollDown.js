@@ -1,5 +1,7 @@
 import React from 'react'
 import 'twin.macro'
+import 'styled-components/macro'
+
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const ScrollDown = ({ disabled, to }) => {

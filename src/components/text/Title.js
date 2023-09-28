@@ -1,5 +1,6 @@
 import React from 'react'
 import 'twin.macro'
+import 'styled-components/macro'
 
 const Title = ({ text }) => (
   <div tw='max-w-xl mb-4 md:mx-auto text-center lg:max-w-2xl'>

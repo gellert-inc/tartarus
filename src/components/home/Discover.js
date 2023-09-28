@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 import 'twin.macro'
+import 'styled-components/macro'
 
 import Fade from 'react-reveal/Fade'
 import withReveal from 'react-reveal/withReveal'
 
 import { Button } from '../button'
 import { Title } from '../text'
-import { SignupForm } from '.'
+import { SignupForm } from './Hero'
 
 const Discover = () => {
   return (
@@ -21,9 +22,15 @@ const Discover = () => {
   )
 }
 
+const AnimatedForm = withReveal(SignupForm, <Fade bottom tw='md:px-16' />)
+
 const Content = () => {
   const [showSignup, setShowSignup] = useState(false)
 
+  const enableSignup = () => {
+    setShowSignup(true)
+  }
+  console.log(showSignup, <AnimatedForm text='Join' />)
   return (
     <div tw='px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20'>
       <div tw='flex flex-col-reverse items-center justify-between w-full mb-10 lg:flex-row'>
@@ -42,9 +49,11 @@ const Content = () => {
           </div>
           <div tw='space-x-2'></div>
           {showSignup ? (
-            <AnimatedForm text='Join' />
+            <Fade bottom tw='md:px-16'>
+              <SignupForm text='Join' />
+            </Fade>
           ) : (
-            <Button variant='primary' md onClick={() => setShowSignup(true)}>
+            <Button variant='primary' md onClick={enableSignup}>
               Join the waitlist
             </Button>
           )}
@@ -73,7 +82,5 @@ const BotImage = () => (
     </div>
   </div>
 )
-
-const AnimatedForm = withReveal(SignupForm, <Fade bottom tw='md:px-16' />)
 
 export default Discover

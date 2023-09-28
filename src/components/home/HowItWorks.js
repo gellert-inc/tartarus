@@ -1,5 +1,6 @@
 import React from 'react'
 import 'twin.macro'
+import 'styled-components/macro'
 
 import Fade from 'react-reveal/Fade'
 
@@ -16,13 +17,13 @@ const STEPS = [
     id: 2,
     title: 'Contribute',
     subtitle:
-      'All recipes are written using certain conventions, which define the characteristics of common ingredients. The rules vary from place to place.'
+      'Support the initiatives you care about by becoming a monthly or a one-time donor.'
   },
   {
     id: 3,
     title: 'Track',
     subtitle:
-      'All recipes are written using certain conventions, which define the characteristics of common ingredients. The rules vary from place to place.'
+      'Track the impact of your donations and see how your contributions are making a difference. Have transparency on how your money is being spent.'
   },
   {
     id: 4,
@@ -67,7 +68,7 @@ const Title = () => (
 const Steps = () => {
   return (
     <div tw='px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8'>
-      <div tw='grid gap-6 row-gap-10 lg:grid-cols-2'>
+      <div tw='grid gap-6 gap-x-10 lg:grid-cols-2'>
         <div tw='lg:py-6 lg:pr-16'>
           {STEPS.map(step => (
             <Step {...step} key={step.id} />

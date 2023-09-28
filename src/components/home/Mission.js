@@ -1,5 +1,7 @@
 import React from 'react'
 import 'twin.macro'
+import 'styled-components/macro'
+
 
 const Mission = () => {
   return (
@@ -15,7 +17,7 @@ const Mission = () => {
             <br />
           </p>
         </div>
-        <div tw='grid gap-6 row-gap-5 lg:grid-cols-3'>
+        <div tw='grid gap-6 gap-x-5 lg:grid-cols-3'>
           <div>
             <img
               tw='object-cover w-full h-64 mb-6 rounded shadow-lg lg:h-80 xl:h-96'

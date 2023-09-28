@@ -1,5 +1,6 @@
 import React from 'react'
 import 'twin.macro'
+import 'styled-components/macro'
 
 const Discover = () => {
   return (
@@ -27,7 +28,7 @@ const Title = () => (
 const Content = () => {
   return (
     <div tw='px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20'>
-      <div tw='grid gap-8 row-gap-8 lg:grid-cols-2'>
+      <div tw='grid gap-8 gap-x-8 lg:grid-cols-2'>
         <div tw='flex flex-col justify-center space-y-12'>
           <div tw='max-w-xl mb-6'>
             <h2 tw='max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none'>
@@ -43,7 +44,7 @@ const Content = () => {
               Become a one-time or recurring financial contributor.
             </p>
           </div>
-          <div tw='grid gap-5 row-gap-8 sm:grid-cols-2'>
+          <div tw='grid gap-5 gap-x-8 sm:grid-cols-2'>
             <div tw='bg-white border-l-4 shadow-sm border-teal-accent-400'>
               <div tw='h-full p-5 border border-l-0 rounded-r'>
                 <h6 tw='mb-2 font-semibold leading-5'>

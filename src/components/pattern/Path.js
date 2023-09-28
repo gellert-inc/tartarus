@@ -1,5 +1,7 @@
 import React from 'react'
 import 'twin.macro'
+import 'styled-components/macro'
+
 
 const Path = () => (
   <div tw='absolute inset-x-0 bottom-0'>

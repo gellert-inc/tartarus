@@ -1,11 +1,13 @@
 import React from 'react'
 import 'twin.macro'
+import 'styled-components/macro'
+
 import { Logo } from '../image'
 
 export const Footer = () => {
   return (
     <div tw='px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8'>
-      <div tw='grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4'>
+      <div tw='grid gap-10 gap-x-6 mb-8 sm:grid-cols-2 lg:grid-cols-4'>
         <div tw='sm:col-span-2'>
           <a
             href='/'
@@ -23,7 +25,7 @@ export const Footer = () => {
         </div>
         <div tw='space-y-2 text-sm'>
           <p tw='text-base font-bold tracking-wide text-gray-900'>Contacts</p>
-          <div tw='flex'>
+          {/* <div tw='flex'>
             <p tw='mr-1 text-gray-800'>Phone:</p>
             <a
               href='tel:850-123-5021'
@@ -33,19 +35,19 @@ export const Footer = () => {
             >
               850-123-5021
             </a>
-          </div>
+          </div> */}
           <div tw='flex'>
             <p tw='mr-1 text-gray-800'>Email:</p>
             <a
-              href='mailto:info@lorem.mail'
+              href='mailto:contact@samaaj.tech'
               aria-label='Our email'
               title='Our email'
               tw='transition-colors duration-300 text-teal-accent-700 hover:text-teal-700'
             >
-              info@lorem.mail
+              contact@samaaj.tech
             </a>
           </div>
-          <div tw='flex'>
+          {/* <div tw='flex'>
             <p tw='mr-1 text-gray-800'>Address:</p>
             <a
               href='https://www.google.com/maps'
@@ -57,9 +59,9 @@ export const Footer = () => {
             >
               312 Lovely Street, NY
             </a>
-          </div>
+          </div> */}
         </div>
-        <div>
+        {/* <div>
           <span tw='text-base font-bold tracking-wide text-gray-900'>
             Social
           </span>
@@ -93,7 +95,7 @@ export const Footer = () => {
           <p tw='mt-4 text-sm text-gray-500'>
             Let us help everyone dream.
           </p>
-        </div>
+        </div> */}
       </div>
       <div tw='flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row'>
         <p tw='text-sm text-gray-600'>
