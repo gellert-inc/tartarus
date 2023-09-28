@@ -1,8 +1,9 @@
 import React from 'react'
 import 'twin.macro'
+import 'styled-components/macro'
 
 const Logo = ({ colour = 'primary' }) => (
-  <a href='/' aria-label='Gurufa' title='Gurufa' tw='flex items-center justify-center'>
+  <a href='/' aria-label='Gellert' title='Gellert' tw='flex items-center justify-center'>
     <svg
       tw='w-12 text-teal-accent-700 -mt-1'
       viewBox='0 0 305 333'

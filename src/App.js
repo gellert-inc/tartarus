@@ -1,6 +1,6 @@
 import React, { lazy } from 'react'
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 const Home = lazy(() => import('./pages/Home'))
 
@@ -8,9 +8,9 @@ function App () {
   return (
     <>
       <Router>
-        <Switch>
-          <Route path='/' component={Home} />
-        </Switch>
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
       </Router>
     </>
   )
